@@ -1,0 +1,88 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: rgb(51, 47, 47);
+}
+.contener {
+  display: flex;
+  padding: 50px;
+  justify-content: center;
+  gap: 30px;
+}
+.left {
+  width: 250px;
+  display: grid;
+  height: max-content;
+  grid-template-rows: repeat(3, 1fr);
+  background: rgb(79, 77, 77);
+}
+.centr {
+  width: 250px;
+  height: max-content;
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+  background: rgb(79, 77, 77);
+}
+.right {
+  width: 250px;
+  display: grid;
+  height: max-content;
+  grid-template-rows: repeat(3, 1fr);
+  background: rgb(79, 77, 77);
+}
+#box {
+  height: 60px;
+  display: grid;
+  margin: 8px;
+  place-items: center;
+  border-radius: 10px;
+  color: wheat;
+  font-weight: bold;
+  font-family: sans-serif;
+  background: rgb(111, 111, 107);
+  font-family: sans-serif;
+}
+.btn {
+  width: 250px;
+  height: 45px;
+  background: darkblue;
+  color: wheat;
+  border: navajowhite;
+  cursor: pointer;
+  font-size: 17px;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+.todo-title {
+  background: rgb(36, 103, 196);
+  width: auto;
+  height: 40px;
+  display: grid;
+  font-size: 20px;
+  font-weight: bold;
+  place-items: center;
+  font-family: sans-serif;
+}
+.progres-title {
+  background: rgb(246, 190, 38);
+  width: auto;
+  height: 40px;
+  display: grid;
+  font-size: 20px;
+  font-weight: bold;
+  place-items: center;
+  font-family: sans-serif;
+}
+.done-title {
+  background: rgb(47, 196, 36);
+  width: auto;
+  height: 40px;
+  display: grid;
+  font-size: 20px;
+  font-weight: bold;
+  place-items: center;
+  font-family: sans-serif;
+}
